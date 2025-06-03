@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  canvas {
+    display: none;
+    background: #286047;
+  }
+  
+  #start-screen,
+  #game-over {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    color: #01341D;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
